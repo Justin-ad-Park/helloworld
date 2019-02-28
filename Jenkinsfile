@@ -5,6 +5,7 @@ node {
     checkout scm
 
   stage 'Setup'
+    sh 'export PATH=/usr/local/bin:$PATH'
     sh 'npm install'
 
   stage 'Mocha test'
