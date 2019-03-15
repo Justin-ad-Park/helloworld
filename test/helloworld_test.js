@@ -11,6 +11,6 @@ describe('main page', function() {
   })
   it('should say hello world', function() {
     assert.ok(this.browser.success)
-    assert.equal(this.browser.text(), "Hello World v0.0.3 ")
+    assert.equal(this.browser.text(), "Hello World v0.0.3")
   })
 })
