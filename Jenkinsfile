@@ -18,4 +18,3 @@ node {
     sh 'rm node_modules -rf'
 }
 
-
